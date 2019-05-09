@@ -286,6 +286,7 @@ ol li{
 
 /*media queries*/
 
+/*media query for tablet*/
 @media(max-width:800px){
 	.nav{
 		   
@@ -333,6 +334,114 @@ ol li{
     width: 185px;
     background-color: white;
 	}
+}
+/* media query for mobile*/
+@media(max-width:500px){
+	.header nav{
+		display: flex;
+    flex-direction: column;
+    margin-left: 143px;
+    position: absolute;
+    border: 2px solid black;
+    top: 62px;
+    left: 270px;
+    width: 100%;
+	}
+	.header nav a {
+        text-decoration: none;
+    color: gray;
+    margin-top: 52px;
+    /* margin-left: 161px; */
+    font-size: 150%;
+	}
+	.section-one h1 {
+    	position: absolute;
+    	left: 441px;
+    	font-size: 105px;
+    /* width: 333px; */
+    	text-align: center;
+    /* margin-right: 131px; */
+    	margin-top: 482px;
+    	text-align: center;
+	}
+	.btn {
+    height: 33px;
+    border: 2px solid black;
+    font-size: 23px;
+    margin-left: 515px;
+    margin-top: 533px;
+    width: 185px;
+    background-color: white;
+	}
+
+	.section-two-div {
+  
+   
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid black;
+   
+	}
+	.section-two-div h2 {
+    margin-top: 59px;
+    font-size: 30px;
+	}
+
+	.section-two-div p{
+	color: gray;
+    margin-top: 52px;
+    margin-left: 42px;
+    position: relative;
+    left: -29px;
+    font-size: 220%;
+	}
+
+	.middle-img {
+    margin-top: 35px;
+    margin-left: 5px;
+    width: 960px;
+	}
+
+	.section-bottom-bottom {
+        display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 100%;
+    margin-left: 122px;
+   
+	}
+	.section-bottom-bottom p{
+    color: gray;
+    margin-top: 10px;
+       margin-left: 1px;
+    font-size: 220%;
+    border: 2px solid black;
+    width: 190%;
+
+   
+	}
+
+	.section-bottom-bottom h2 {
+        margin-top: 36px;
+        font-size: 30px;
+           margin-left: 0px;
+}
+	footer {
+        border-top: 1px solid black;
+    position: relative;
+    top: 560px;
+    width: 190%
+}
+footer h3 {
+    margin-top: 34px;
+    font-size: 30px;
+	}
+
+	footer address p {
+    line-height: 50px;
+    margin-bottom: 14px;
+    color: gray;
+     font-size: 220%;
 
 
 }
